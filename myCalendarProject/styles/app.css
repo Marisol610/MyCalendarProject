@@ -1,0 +1,180 @@
+html, body{
+    background-image: url(../img/oceancaves.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    padding:0%;
+    margin:0%;
+    
+}
+
+body {
+
+background-color:rgb(144, 23, 204) ; 
+
+
+}
+
+h1 {
+    font-family: fantasy;
+    color: rgb(47, 227, 240);
+    text-align: center;
+    padding-top: 55px;
+}
+
+.section {
+   
+    display: inline-block;
+    vertical-align: top;
+    
+    
+}
+
+#secList {
+    color: black;
+    width: 50%;
+    
+    
+   
+    
+}
+
+#secForm {
+    width: 39%;
+    border-style: ridge;
+    padding: 15px;
+    height: 85%;
+    padding-bottom: 45px;
+    
+    
+}
+
+.control {
+    display: block;
+    margin-bottom: 10px;
+    border:1px solid grey;
+    border-radius: 4px;
+    margin-right: .3rem;
+    padding: 10px 5px;
+    width:100%;
+}
+#txtTitle {
+    background-color: rgb(178, 222, 240);
+    border:1.5px solid rgb(0, 132, 255);
+    border-style: groove;
+    font-size: 1rem;
+}
+
+#txtDate {
+    background-color: rgb(146, 240, 240);
+    border:1.5px solid rgb(0, 132, 255);
+    border-style: groove;
+    font-size: 1rem;
+}
+
+#taskDescription {
+    background-color:rgb(88, 228, 233); 
+    border:1.5px solid rgb(0, 132, 255);
+    border-style: groove;
+    font-size: .5rem;
+}
+
+#txtLocation {
+    background-color: rgb(151, 218, 235);
+    border:1.5px solid rgb(0, 132, 255);
+    border-style: groove;
+    font-size: 1rem;
+}
+
+#btnSave {
+    background-color: rgb(177, 24, 164);
+    color: seashell;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 300px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#btnShowDetails {
+    background-color: rgb(177, 24, 164);
+    color: seashell;
+    font-size: 1rem;
+    font-weight: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+
+
+h3 {
+    color: rgb(177, 24, 164);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#iconImp {
+    font-size: 20px;
+    float: right;
+    margin-right: 10pxpx;
+    color: blue;
+}
+
+#iconImp.fas {
+    color: rgb(177, 24, 164);
+}
+
+.task {
+   border: 2px double rgb(177, 24, 164) ;
+   background-color: rgba(255,255,255,0.5);
+   font-size: 1em;
+   height: 63px;
+   margin-top: 2px;
+   margin-left: 60px;
+   margin-right: 80px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+   vertical-align: middle;
+    
+}
+h5 {
+    
+    color: rgb(14, 51, 165);
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: auto;
+    text-align: center;
+}
+task-section {
+    flex: 1;
+    
+
+
+}
+.task-desc {
+    flex: 4;
+    
+   
+}
+.task-section #iconstar {
+
+    float: left;
+    
+}
+.task-section #icontrash {
+    float: right;
+    padding: 5px;
+    padding-top: 1px;
+}
+    
+
+
